@@ -1,5 +1,5 @@
 # forked for WERA systems 
-The two timeseries in /Site_gtn_ts/ are included for example data produced by https://github.com/dougcahl/wera_raw_to_ts. One is produced from a .RAW file and the other from a .SORT file. The forked lera_DPd will automatically process either of these formats. 
+The two timeseries in /Site_gtn_ts/ are included for example data produced by scipts available at https://github.com/dougcahl/WERA_to_DP. One is produced from a .RAW file and the other from a .SORT file. The forked lera_DPd will automatically process either of these formats. 
 Dec. 2019 -- Douglas Cahl, dcahl@geol.sc.edu
 
 
