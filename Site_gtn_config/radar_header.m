@@ -39,8 +39,8 @@
 %% this filename below (line 43) and the antenna filename (line 74) are required to be set
 %
 %% decimated TS filename that has a header with the Radar setup
-fn = 'D:\data\git\lera_DP_testdata_wera\Site_gtn_ts\20193221553_gtn.mat'; % decimated TS file from WERA .RAW file
-% fn = 'D:\data\git\lera_DP_testdata_wera\Site_gtn_ts\20193221609_gtn.mat'; % from WERA .SORT file
+fn = '..\Site_gtn_ts\20193221553_gtn.mat'; % decimated TS file from WERA .RAW file
+% fn = '..\Site_gtn_ts\20193221609_gtn.mat'; % from WERA .SORT file
 load(fn,'RC','WERA')
 
 % Radar Bandwidth
@@ -71,7 +71,7 @@ RC.TxAntConfig = '4-post Quad Array';
 RC.Tx_bearing = 98; % in degT 
 
 %%% RX array 
-ant_pos_file = 'D:\data\git\wera_raw_data\antpos_GTN.asc';  % RX antenna positions file from WERA system
+ant_pos_file = 'antpos_GTN.asc';  % RX antenna positions file from WERA system
 ant = importdata(ant_pos_file,' ',1);
 ant = ant.data;
 ant_lons = ant(:,3);
