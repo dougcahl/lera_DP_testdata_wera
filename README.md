@@ -1,7 +1,5 @@
 # forked for WERA systems 
-Edit the radar_header.m in /Site_gtn_config/ in lines 42 and 74 to point towards the correct directories (full paths)
-Run HFR_DP_master_LERA_gtn.m in lera_DPd to process data
-two timeseries in /Site_gtn_ts/ are included for example data. One is produced from a .RAW file and the other from a .SORT file. The forked lera_DPd will automatically process either of these formats. 
+The two timeseries in /Site_gtn_ts/ are included for example data produced by https://github.com/dougcahl/wera_raw_to_ts. One is produced from a .RAW file and the other from a .SORT file. The forked lera_DPd will automatically process either of these formats. 
 Dec. 2019 -- Douglas Cahl, dcahl@geol.sc.edu
 
 
