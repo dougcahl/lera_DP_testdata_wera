@@ -39,8 +39,8 @@
 %% this filename below (line 43) and the antenna filename (line 74) are required to be set
 %
 %% decimated TS filename that has a header with the Radar setup
-fn = '..\Site_gtn_ts\20193221553_gtn.mat'; % decimated TS file from WERA .RAW file
-% fn = '..\Site_gtn_ts\20193221609_gtn.mat'; % from WERA .SORT file
+fn = '../Site_gtn_ts/20193221553_gtn.mat'; % decimated TS file from WERA .RAW file
+% fn = '../Site_gtn_ts/20193221609_gtn.mat'; % from WERA .SORT file
 load(fn,'RC','WERA')
 
 % Radar Bandwidth

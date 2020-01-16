@@ -20,7 +20,7 @@ lambda_radar = c/fradar/10^6; % meters
 % antenna positions
 mean_lon = mean(lon);
 mean_lat = mean(lat);
-[x_radar,y_radar] = geog2utm_nodisp(lon,lat,mean_lon,mean_lat); % zero at midpoint of antennas
+[x_radar,y_radar] = geog2utm(lon,lat,mean_lon,mean_lat); % zero at midpoint of antennas
 x_radar = x_radar*1000; % convert to meters
 y_radar = y_radar*1000;
 
